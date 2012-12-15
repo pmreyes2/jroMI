@@ -25,7 +25,7 @@ eps0=pc.epsilon_0                # [F/m] free space electrical permittivity
 mu0=pc.mu_0                      # [H/m] free space magnetic permeability
 c=pc.c                           # [m/s] light speed
 
-print q,m,eps0,mu0,c
+#print q,m,eps0,mu0,c
 
 #wgs84 model of spheroid Earth
 a=6378.137                                # [km] - equatorial radius WGS 84
