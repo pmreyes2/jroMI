@@ -9,7 +9,7 @@ import covXYs as covXY
 geom=covXY.geom
 covs=covXY.covs
 px,py,uB,Bo,theta,uphi,uthe=geom(tx,ty,dr)
-covs(px,py,uB,Bo,theta,uphi,uthe,Ne,h)
+covXX,covXY=covs(px,py,uB,Bo,theta,uphi,uthe,Ne,h)
 """
 from pylab import *
 
